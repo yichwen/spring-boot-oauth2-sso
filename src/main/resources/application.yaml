@@ -1,0 +1,15 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          # required to set up in GitHub
+          # Settings > Developer settings > OAuth Apps > New OAuth App (Register a new OAuth application)
+          # Mandatory to set up: 
+          # 1. Application name: "Spring Boot OAuth2 SSO Tutorial"
+          # 2. Homepage URL: "http://localhost:8080"
+          # 3. Authorization callback URL: "http://localhost:8080/login/oauth2/code/github"
+          # After register application, you will get a client id and a client secret
+          github:
+            clientId: 442a90b5b2de1fba0915
+            clientSecret: 36780167f7824c13ea43831121e2af033340ffbf
